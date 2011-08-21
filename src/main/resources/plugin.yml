@@ -1,0 +1,14 @@
+name: ShiftInventory
+main: org.opatut.shiftinventory.Plugin
+version: 0.1
+commands:
+  shiftinventory:
+    description: Shifts the inventory up/down to change the toolbar.
+    aliases:
+        - si
+    usage: 
+        "Usage: \n
+            §f/shiftinventory on §e-- enable shift+scrolling\n
+            §f/shiftinventory off §e-- disable shift+scrolling\n
+            §f/shiftinventory up §e-- shift all slots up\n
+            §f/shiftinventory down §e-- shift all slots down"
